@@ -148,6 +148,6 @@ A função strassen é a principal função, utilizando das funções previament
       * Um erro de digitação na função Strassen: Na hora de calcular $C_{22} = P_5 + P_1 - P_3 - P_7$, eram feitas três chamadas de função, uma soma_matriz, e duas subtrai_matriz, e nessas chamadas, ao invés de guardar o resultado obtido em C22, eu estava guardando em C11, por ter cometido um erro de digitação.
      
  #### Conclusão
- Mesmo que o formato de correção necessitando que o input fosse feito por scanf me incomodando(achei mais chato fazer a main para entrega do que o resto da implementação do algoritmo), foi um trabalho prazeroso de ser implementado, onde o desperdício de memória era algo que deveria ser levado em conta, o que me obrigou a otimizar o tratamento com a memória, e as verificações a cada alocação. Apesar de não ser um problema caso a implementação seja feita corretamente, achei legal ter um "tempo de execução limite".
+ Mesmo que o formato de correção necessitando que o input fosse feito pelo terminal me incomodando(todos os testes já foram feitos lendo diretamente do arquivo fornecido pelo docente), foi um trabalho prazeroso de ser implementado, onde o desperdício de memória era algo que deveria ser levado em conta, o que me obrigou a otimizar o tratamento com a memória(aplicando algumas boas práticas de Código Limpo) e as verificações a cada alocação. Apesar de não ser um problema caso a implementação seja feita corretamente, achei legal ter um "tempo de execução limite".
  
  
